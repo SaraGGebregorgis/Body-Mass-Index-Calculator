@@ -27,7 +27,7 @@ from bodymassindex and call a function here-->
     <!--Display the bmi-->
     <div v-if="bmi > 0" class="bmi-result">
     Your BMI is {{ bmi }}</div>
-</div>
+</div> 
 </template>
 
 <style scoped>

@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 //create ref for height and width
 const userHeight = ref('')
-const userWeight = ref('')
+const userWeight = ref('') 
 
 //emit the stats-entered event with user input
 const emit = defineEmits(['user-entered-data'])
