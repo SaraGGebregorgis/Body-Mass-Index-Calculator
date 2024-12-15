@@ -1,5 +1,6 @@
 <script setup>
 
+import { useBmiStore } from './store/BmiStore'
 import BodyMassIndexForm from './components/BodyMassIndexForm.vue'
 
 import {ref} from 'vue' 
